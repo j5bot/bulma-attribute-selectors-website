@@ -6,16 +6,16 @@ doc-subtab: content
 
 {% include subnav-elements.html %}
 
-<section class="section">
-  <div class="container">
-    <h1 class="title">Content</h1>
-    <h2 class="subtitle">
+<section data-am-bulma="section">
+  <div data-am-bulma="container">
+    <h1 data-am-bulma="title">Content</h1>
+    <h2 data-am-bulma="subtitle">
       A single class to handle WYSIWYG generated content, where only <strong>HTML tags</strong> are available
     </h2>
 
     <hr>
 
-    <div class="content">
+    <div data-am-bulma="content">
       <p>When you can't use the CSS classes you want, or when you just want to directly use HTML tags, use <code>content</code> as container. It can handle almost any HTML tag:</p>
       <ul>
         <li><code>&lt;p&gt;</code> paragraphs</li>
@@ -28,8 +28,8 @@ doc-subtab: content
       <p>This <code>content</code> class can be used in <em>any</em>, whenever you just want to write some <strong>text</strong>. For example, it's used for the paragraph you're currently reading.</p>
     </div>
 
-    <div class="example">
-      <div class="content">
+    <div data-am-bulma="example">
+      <div data-am-bulma="content">
         <h1>Hello World</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</p>
         <h2>Second level</h2>
@@ -68,7 +68,7 @@ doc-subtab: content
     </div>
 
 {% highlight html %}
-<div class="content">
+<div data-am-bulma="content">
   <h1>Hello World</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</p>
   <h2>Second level</h2>
@@ -108,12 +108,12 @@ doc-subtab: content
 
     <hr>
 
-    <h3 class="title">Sizes</h3>
-    <div class="content">
+    <h3 data-am-bulma="title">Sizes</h3>
+    <div data-am-bulma="content">
       <p>You can use the <code>is-medium</code> and <code>is-large</code> modifiers to change the font size.</p>
     </div>
-    <div class="example">
-      <div class="content is-medium">
+    <div data-am-bulma="example">
+      <div data-am-bulma="content is-medium">
         <h1>Hello World</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</p>
         <h2>Second level</h2>
@@ -126,8 +126,8 @@ doc-subtab: content
         </ul>
       </div>
     </div>
-    <div class="example">
-      <div class="content is-large">
+    <div data-am-bulma="example">
+      <div data-am-bulma="content is-large">
         <h1>Hello World</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</p>
         <h2>Second level</h2>

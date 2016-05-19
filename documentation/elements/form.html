@@ -6,16 +6,16 @@ doc-subtab: form
 
 {% include subnav-elements.html %}
 
-<section class="section">
-  <div class="container">
-    <h1 class="title">Form controls</h1>
-    <h2 class="subtitle">
+<section data-am-bulma="section">
+  <div data-am-bulma="container">
+    <h1 data-am-bulma="title">Form controls</h1>
+    <h2 data-am-bulma="subtitle">
       All generic <strong>form controls</strong>, designed for consistency
     </h2>
 
     <hr>
 
-    <div class="content">
+    <div data-am-bulma="content">
       <p>The following form controls <strong>classes</strong> are supported:</p>
       <ul>
         <li><code>.label</code></li>
@@ -30,108 +30,108 @@ doc-subtab: form
       <p>When combining several controls in a <strong>form</strong>, use the <code>.control</code> class as a <strong>container</strong>, to keep the spacing consistent.</p>
     </div>
 
-    <div class="columns">
-      <div class="column is-half">
-        <label class="label">Name</label>
-        <p class="control">
-          <input class="input" type="text" placeholder="Text input">
+    <div data-am-bulma="columns">
+      <div data-am-bulma="column is-half">
+        <label data-am-bulma="label">Name</label>
+        <p data-am-bulma="control">
+          <input data-am-bulma="input" type="text" placeholder="Text input">
         </p>
-        <label class="label">Username</label>
-        <p class="control has-icon has-icon-right">
-          <input class="input is-success" type="text" placeholder="Text input" value="bulma">
-          <i class="fa fa-check"></i>
-          <span class="help is-success">This username is available</span>
+        <label data-am-bulma="label">Username</label>
+        <p data-am-bulma="control has-icon has-icon-right">
+          <input data-am-bulma="input is-success" type="text" placeholder="Text input" value="bulma">
+          <i data-am-bulma="fa fa-check"></i>
+          <span data-am-bulma="help is-success">This username is available</span>
         </p>
-        <label class="label">Email</label>
-        <p class="control has-icon has-icon-right">
-          <input class="input is-danger" type="text" placeholder="Email input" value="hello@">
-          <i class="fa fa-warning"></i>
-          <span class="help is-danger">This email is invalid</span>
+        <label data-am-bulma="label">Email</label>
+        <p data-am-bulma="control has-icon has-icon-right">
+          <input data-am-bulma="input is-danger" type="text" placeholder="Email input" value="hello@">
+          <i data-am-bulma="fa fa-warning"></i>
+          <span data-am-bulma="help is-danger">This email is invalid</span>
         </p>
-        <label class="label">Subject</label>
-        <p class="control">
-          <span class="select">
+        <label data-am-bulma="label">Subject</label>
+        <p data-am-bulma="control">
+          <span data-am-bulma="select">
             <select>
               <option>Select dropdown</option>
               <option>With options</option>
             </select>
           </span>
         </p>
-        <label class="label">Message</label>
-        <p class="control">
-          <textarea class="textarea" placeholder="Textarea"></textarea>
+        <label data-am-bulma="label">Message</label>
+        <p data-am-bulma="control">
+          <textarea data-am-bulma="textarea" placeholder="Textarea"></textarea>
         </p>
-        <p class="control">
-          <label class="checkbox">
+        <p data-am-bulma="control">
+          <label data-am-bulma="checkbox">
             <input type="checkbox">
             Remember me
           </label>
         </p>
-        <p class="control">
-          <label class="radio">
+        <p data-am-bulma="control">
+          <label data-am-bulma="radio">
             <input type="radio" name="question">
             Yes
           </label>
-          <label class="radio">
+          <label data-am-bulma="radio">
             <input type="radio" name="question">
             No
           </label>
         </p>
-        <p class="control">
-          <button class="button is-primary">Submit</button>
-          <button class="button is-link">Cancel</button>
+        <p data-am-bulma="control">
+          <button data-am-bulma="button is-primary">Submit</button>
+          <button data-am-bulma="button is-link">Cancel</button>
         </p>
       </div>
-      <div class="column is-half">
+      <div data-am-bulma="column is-half">
 {% highlight html %}
-<label class="label">Name</label>
-<p class="control">
-  <input class="input" type="text" placeholder="Text input">
+<label data-am-bulma="label">Name</label>
+<p data-am-bulma="control">
+  <input data-am-bulma="input" type="text" placeholder="Text input">
 </p>
-<label class="label">Username</label>
-<p class="control has-icon has-icon-right">
-  <input class="input is-success" type="text" placeholder="Text input" value="bulma">
-  <i class="fa fa-check"></i>
-  <span class="help is-success">This username is available</span>
+<label data-am-bulma="label">Username</label>
+<p data-am-bulma="control has-icon has-icon-right">
+  <input data-am-bulma="input is-success" type="text" placeholder="Text input" value="bulma">
+  <i data-am-bulma="fa fa-check"></i>
+  <span data-am-bulma="help is-success">This username is available</span>
 </p>
-<label class="label">Email</label>
-<p class="control has-icon has-icon-right">
-  <input class="input is-danger" type="text" placeholder="Email input" value="hello@">
-  <i class="fa fa-warning"></i>
-  <span class="help is-danger">This email is invalid</span>
+<label data-am-bulma="label">Email</label>
+<p data-am-bulma="control has-icon has-icon-right">
+  <input data-am-bulma="input is-danger" type="text" placeholder="Email input" value="hello@">
+  <i data-am-bulma="fa fa-warning"></i>
+  <span data-am-bulma="help is-danger">This email is invalid</span>
 </p>
-<label class="label">Subject</label>
-<p class="control">
-  <span class="select">
+<label data-am-bulma="label">Subject</label>
+<p data-am-bulma="control">
+  <span data-am-bulma="select">
     <select>
       <option>Select dropdown</option>
       <option>With options</option>
     </select>
   </span>
 </p>
-<label class="label">Message</label>
-<p class="control">
-  <textarea class="textarea" placeholder="Textarea"></textarea>
+<label data-am-bulma="label">Message</label>
+<p data-am-bulma="control">
+  <textarea data-am-bulma="textarea" placeholder="Textarea"></textarea>
 </p>
-<p class="control">
-  <label class="checkbox">
+<p data-am-bulma="control">
+  <label data-am-bulma="checkbox">
     <input type="checkbox">
     Remember me
   </label>
 </p>
-<p class="control">
-  <label class="radio">
+<p data-am-bulma="control">
+  <label data-am-bulma="radio">
     <input type="radio" name="question">
     Yes
   </label>
-  <label class="radio">
+  <label data-am-bulma="radio">
     <input type="radio" name="question">
     No
   </label>
 </p>
-<p class="control">
-  <button class="button is-primary">Submit</button>
-  <button class="button is-link">Cancel</button>
+<p data-am-bulma="control">
+  <button data-am-bulma="button is-primary">Submit</button>
+  <button data-am-bulma="button is-link">Cancel</button>
 </p>
 {% endhighlight %}
       </div>
@@ -139,41 +139,41 @@ doc-subtab: form
 
     <hr>
 
-    <h3 class="title">Colors</h3>
-    <div class="columns">
-      <div class="column is-half">
-        <p class="control">
-          <input class="input is-primary" type="text" placeholder="Primary input">
+    <h3 data-am-bulma="title">Colors</h3>
+    <div data-am-bulma="columns">
+      <div data-am-bulma="column is-half">
+        <p data-am-bulma="control">
+          <input data-am-bulma="input is-primary" type="text" placeholder="Primary input">
         </p>
-        <p class="control">
-          <input class="input is-info" type="text" placeholder="Info input">
+        <p data-am-bulma="control">
+          <input data-am-bulma="input is-info" type="text" placeholder="Info input">
         </p>
-        <p class="control">
-          <input class="input is-success" type="text" placeholder="Success input">
+        <p data-am-bulma="control">
+          <input data-am-bulma="input is-success" type="text" placeholder="Success input">
         </p>
-        <p class="control">
-          <input class="input is-warning" type="text" placeholder="Warning input">
+        <p data-am-bulma="control">
+          <input data-am-bulma="input is-warning" type="text" placeholder="Warning input">
         </p>
-        <p class="control">
-          <input class="input is-danger" type="text" placeholder="Danger input">
+        <p data-am-bulma="control">
+          <input data-am-bulma="input is-danger" type="text" placeholder="Danger input">
         </p>
       </div>
-      <div class="column is-half">
+      <div data-am-bulma="column is-half">
 {% highlight html %}
-<p class="control">
-  <input class="input is-primary" type="text" placeholder="Primary input">
+<p data-am-bulma="control">
+  <input data-am-bulma="input is-primary" type="text" placeholder="Primary input">
 </p>
-<p class="control">
-  <input class="input is-info" type="text" placeholder="Info input">
+<p data-am-bulma="control">
+  <input data-am-bulma="input is-info" type="text" placeholder="Info input">
 </p>
-<p class="control">
-  <input class="input is-success" type="text" placeholder="Success input">
+<p data-am-bulma="control">
+  <input data-am-bulma="input is-success" type="text" placeholder="Success input">
 </p>
-<p class="control">
-  <input class="input is-warning" type="text" placeholder="Warning input">
+<p data-am-bulma="control">
+  <input data-am-bulma="input is-warning" type="text" placeholder="Warning input">
 </p>
-<p class="control">
-  <input class="input is-danger" type="text" placeholder="Danger input">
+<p data-am-bulma="control">
+  <input data-am-bulma="input is-danger" type="text" placeholder="Danger input">
 </p>
 {% endhighlight %}
       </div>
@@ -181,35 +181,35 @@ doc-subtab: form
 
     <hr>
 
-    <h3 class="title">Sizes</h3>
-    <div class="columns">
-      <div class="column is-half">
-        <p class="control">
-          <input class="input is-small" type="text" placeholder="Small input">
+    <h3 data-am-bulma="title">Sizes</h3>
+    <div data-am-bulma="columns">
+      <div data-am-bulma="column is-half">
+        <p data-am-bulma="control">
+          <input data-am-bulma="input is-small" type="text" placeholder="Small input">
         </p>
-        <p class="control">
-          <input class="input" type="text" placeholder="Normal input">
+        <p data-am-bulma="control">
+          <input data-am-bulma="input" type="text" placeholder="Normal input">
         </p>
-        <p class="control">
-          <input class="input is-medium" type="text" placeholder="Medium input">
+        <p data-am-bulma="control">
+          <input data-am-bulma="input is-medium" type="text" placeholder="Medium input">
         </p>
-        <p class="control">
-          <input class="input is-large" type="text" placeholder="Large input">
+        <p data-am-bulma="control">
+          <input data-am-bulma="input is-large" type="text" placeholder="Large input">
         </p>
       </div>
-      <div class="column is-half">
+      <div data-am-bulma="column is-half">
 {% highlight html %}
-<p class="control">
-  <input class="input is-small" type="text" placeholder="Small input">
+<p data-am-bulma="control">
+  <input data-am-bulma="input is-small" type="text" placeholder="Small input">
 </p>
-<p class="control">
-  <input class="input" type="text" placeholder="Normal input">
+<p data-am-bulma="control">
+  <input data-am-bulma="input" type="text" placeholder="Normal input">
 </p>
-<p class="control">
-  <input class="input is-medium" type="text" placeholder="Medium input">
+<p data-am-bulma="control">
+  <input data-am-bulma="input is-medium" type="text" placeholder="Medium input">
 </p>
-<p class="control">
-  <input class="input is-large" type="text" placeholder="Large input">
+<p data-am-bulma="control">
+  <input data-am-bulma="input is-large" type="text" placeholder="Large input">
 </p>
 {% endhighlight %}
       </div>
@@ -217,194 +217,194 @@ doc-subtab: form
 
     <hr>
 
-    <h3 class="title">States</h3>
-    <h4 class="subtitle">Loading</h4>
-    <div class="columns">
-      <div class="column is-half">
-        <p class="control is-loading">
-          <input class="input" type="text" placeholder="Loading input">
+    <h3 data-am-bulma="title">States</h3>
+    <h4 data-am-bulma="subtitle">Loading</h4>
+    <div data-am-bulma="columns">
+      <div data-am-bulma="column is-half">
+        <p data-am-bulma="control is-loading">
+          <input data-am-bulma="input" type="text" placeholder="Loading input">
         </p>
-        <p class="control is-loading">
-          <textarea class="textarea" placeholder="Loading textarea"></textarea>
+        <p data-am-bulma="control is-loading">
+          <textarea data-am-bulma="textarea" placeholder="Loading textarea"></textarea>
         </p>
       </div>
-      <div class="column is-half">
+      <div data-am-bulma="column is-half">
 {% highlight html %}
-<p class="control is-loading">
-  <input class="input" type="text" placeholder="Loading input">
+<p data-am-bulma="control is-loading">
+  <input data-am-bulma="input" type="text" placeholder="Loading input">
 </p>
-<p class="control is-loading">
-  <textarea class="textarea" placeholder="Loading textarea"></textarea>
+<p data-am-bulma="control is-loading">
+  <textarea data-am-bulma="textarea" placeholder="Loading textarea"></textarea>
 </p>
 {% endhighlight %}
       </div>
     </div>
 
-    <h4 class="subtitle">Disabled</h4>
-    <div class="columns">
-      <div class="column is-half">
-        <p class="control">
-          <input class="input" type="text" placeholder="Disabled input" disabled>
+    <h4 data-am-bulma="subtitle">Disabled</h4>
+    <div data-am-bulma="columns">
+      <div data-am-bulma="column is-half">
+        <p data-am-bulma="control">
+          <input data-am-bulma="input" type="text" placeholder="Disabled input" disabled>
         </p>
-        <p class="control">
-          <textarea class="textarea" placeholder="Disabled textarea" disabled></textarea>
+        <p data-am-bulma="control">
+          <textarea data-am-bulma="textarea" placeholder="Disabled textarea" disabled></textarea>
         </p>
-        <p class="control">
-          <label class="checkbox is-disabled">
+        <p data-am-bulma="control">
+          <label data-am-bulma="checkbox is-disabled">
             <input type="checkbox" disabled>
             Remember me
           </label>
         </p>
-        <p class="control">
-          <label class="radio is-disabled">
+        <p data-am-bulma="control">
+          <label data-am-bulma="radio is-disabled">
             <input type="radio" name="question" disabled>
             Yes
           </label>
-          <label class="radio is-disabled">
+          <label data-am-bulma="radio is-disabled">
             <input type="radio" name="question" disabled>
             No
           </label>
         </p>
-        <p class="control">
-          <button class="button is-primary" disabled>Submit</button>
-          <button class="button" disabled>Cancel</button>
+        <p data-am-bulma="control">
+          <button data-am-bulma="button is-primary" disabled>Submit</button>
+          <button data-am-bulma="button" disabled>Cancel</button>
         </p>
       </div>
-      <div class="column is-half">
+      <div data-am-bulma="column is-half">
 {% highlight html %}
-<p class="control">
-  <input class="input" type="text" placeholder="Disabled input" disabled>
+<p data-am-bulma="control">
+  <input data-am-bulma="input" type="text" placeholder="Disabled input" disabled>
 </p>
-<p class="control">
-  <textarea class="textarea" placeholder="Disabled textarea" disabled></textarea>
+<p data-am-bulma="control">
+  <textarea data-am-bulma="textarea" placeholder="Disabled textarea" disabled></textarea>
 </p>
-<p class="control">
-  <label class="checkbox is-disabled">
+<p data-am-bulma="control">
+  <label data-am-bulma="checkbox is-disabled">
     <input type="checkbox" disabled>
     Remember me
   </label>
 </p>
-<p class="control">
-  <label class="radio is-disabled">
+<p data-am-bulma="control">
+  <label data-am-bulma="radio is-disabled">
     <input type="radio" name="question" disabled>
     Yes
   </label>
-  <label class="radio is-disabled">
+  <label data-am-bulma="radio is-disabled">
     <input type="radio" name="question" disabled>
     No
   </label>
 </p>
-<p class="control">
-  <button class="button is-primary" disabled>Submit</button>
-  <button class="button" disabled>Cancel</button>
+<p data-am-bulma="control">
+  <button data-am-bulma="button is-primary" disabled>Submit</button>
+  <button data-am-bulma="button" disabled>Cancel</button>
 </p>
 {% endhighlight %}
       </div>
     </div>
 
-    <h4 class="subtitle">With Font Awesome icons</h4>
-    <div class="columns">
-      <div class="column is-half">
-        <p class="control has-icon">
-          <input class="input" type="email" placeholder="Email">
-          <i class="fa fa-envelope"></i>
+    <h4 data-am-bulma="subtitle">With Font Awesome icons</h4>
+    <div data-am-bulma="columns">
+      <div data-am-bulma="column is-half">
+        <p data-am-bulma="control has-icon">
+          <input data-am-bulma="input" type="email" placeholder="Email">
+          <i data-am-bulma="fa fa-envelope"></i>
         </p>
-        <p class="control has-icon">
-          <input class="input" type="password" placeholder="Password">
-          <i class="fa fa-lock"></i>
+        <p data-am-bulma="control has-icon">
+          <input data-am-bulma="input" type="password" placeholder="Password">
+          <i data-am-bulma="fa fa-lock"></i>
         </p>
-        <p class="control">
-          <button class="button is-success">
+        <p data-am-bulma="control">
+          <button data-am-bulma="button is-success">
             Login
           </button>
         </p>
       </div>
-      <div class="column is-half">
+      <div data-am-bulma="column is-half">
 {% highlight html %}
-<p class="control has-icon">
-  <input class="input" type="email" placeholder="Email">
-  <i class="fa fa-envelope"></i>
+<p data-am-bulma="control has-icon">
+  <input data-am-bulma="input" type="email" placeholder="Email">
+  <i data-am-bulma="fa fa-envelope"></i>
 </p>
-<p class="control has-icon">
-  <input class="input" type="password" placeholder="Password">
-  <i class="fa fa-lock"></i>
+<p data-am-bulma="control has-icon">
+  <input data-am-bulma="input" type="password" placeholder="Password">
+  <i data-am-bulma="fa fa-lock"></i>
 </p>
-<p class="control">
-  <button class="button is-success">
+<p data-am-bulma="control">
+  <button data-am-bulma="button is-success">
     Login
   </button>
 </p>
 {% endhighlight %}
       </div>
     </div>
-    <div class="columns">
-      <div class="column is-half">
-        <p class="control has-icon">
-          <input class="input is-small" type="email" placeholder="Email">
-          <i class="fa fa-envelope"></i>
+    <div data-am-bulma="columns">
+      <div data-am-bulma="column is-half">
+        <p data-am-bulma="control has-icon">
+          <input data-am-bulma="input is-small" type="email" placeholder="Email">
+          <i data-am-bulma="fa fa-envelope"></i>
         </p>
-        <p class="control has-icon">
-          <input class="input" type="email" placeholder="Email">
-          <i class="fa fa-envelope"></i>
+        <p data-am-bulma="control has-icon">
+          <input data-am-bulma="input" type="email" placeholder="Email">
+          <i data-am-bulma="fa fa-envelope"></i>
         </p>
-        <p class="control has-icon">
-          <input class="input is-medium" type="email" placeholder="Email">
-          <i class="fa fa-envelope"></i>
+        <p data-am-bulma="control has-icon">
+          <input data-am-bulma="input is-medium" type="email" placeholder="Email">
+          <i data-am-bulma="fa fa-envelope"></i>
         </p>
-        <p class="control has-icon">
-          <input class="input is-large" type="email" placeholder="Email">
-          <i class="fa fa-envelope"></i>
+        <p data-am-bulma="control has-icon">
+          <input data-am-bulma="input is-large" type="email" placeholder="Email">
+          <i data-am-bulma="fa fa-envelope"></i>
         </p>
-        <p class="control has-icon has-icon-right">
-          <input class="input is-small" type="email" placeholder="Email">
-          <i class="fa fa-check"></i>
+        <p data-am-bulma="control has-icon has-icon-right">
+          <input data-am-bulma="input is-small" type="email" placeholder="Email">
+          <i data-am-bulma="fa fa-check"></i>
         </p>
-        <p class="control has-icon has-icon-right">
-          <input class="input" type="email" placeholder="Email">
-          <i class="fa fa-check"></i>
+        <p data-am-bulma="control has-icon has-icon-right">
+          <input data-am-bulma="input" type="email" placeholder="Email">
+          <i data-am-bulma="fa fa-check"></i>
         </p>
-        <p class="control has-icon has-icon-right">
-          <input class="input is-medium" type="email" placeholder="Email">
-          <i class="fa fa-check"></i>
+        <p data-am-bulma="control has-icon has-icon-right">
+          <input data-am-bulma="input is-medium" type="email" placeholder="Email">
+          <i data-am-bulma="fa fa-check"></i>
         </p>
-        <p class="control has-icon has-icon-right">
-          <input class="input is-large" type="email" placeholder="Email">
-          <i class="fa fa-check"></i>
+        <p data-am-bulma="control has-icon has-icon-right">
+          <input data-am-bulma="input is-large" type="email" placeholder="Email">
+          <i data-am-bulma="fa fa-check"></i>
         </p>
       </div>
-      <div class="column is-half">
+      <div data-am-bulma="column is-half">
 {% highlight html %}
-<p class="control has-icon">
-  <input class="input is-small" type="email" placeholder="Email">
-  <i class="fa fa-envelope"></i>
+<p data-am-bulma="control has-icon">
+  <input data-am-bulma="input is-small" type="email" placeholder="Email">
+  <i data-am-bulma="fa fa-envelope"></i>
 </p>
-<p class="control has-icon">
-  <input class="input" type="email" placeholder="Email">
-  <i class="fa fa-envelope"></i>
+<p data-am-bulma="control has-icon">
+  <input data-am-bulma="input" type="email" placeholder="Email">
+  <i data-am-bulma="fa fa-envelope"></i>
 </p>
-<p class="control has-icon">
-  <input class="input is-medium" type="email" placeholder="Email">
-  <i class="fa fa-envelope"></i>
+<p data-am-bulma="control has-icon">
+  <input data-am-bulma="input is-medium" type="email" placeholder="Email">
+  <i data-am-bulma="fa fa-envelope"></i>
 </p>
-<p class="control has-icon">
-  <input class="input is-large" type="email" placeholder="Email">
-  <i class="fa fa-envelope"></i>
+<p data-am-bulma="control has-icon">
+  <input data-am-bulma="input is-large" type="email" placeholder="Email">
+  <i data-am-bulma="fa fa-envelope"></i>
 </p>
-<p class="control has-icon has-icon-right">
-  <input class="input is-small" type="email" placeholder="Email">
-  <i class="fa fa-check"></i>
+<p data-am-bulma="control has-icon has-icon-right">
+  <input data-am-bulma="input is-small" type="email" placeholder="Email">
+  <i data-am-bulma="fa fa-check"></i>
 </p>
-<p class="control has-icon has-icon-right">
-  <input class="input" type="email" placeholder="Email">
-  <i class="fa fa-check"></i>
+<p data-am-bulma="control has-icon has-icon-right">
+  <input data-am-bulma="input" type="email" placeholder="Email">
+  <i data-am-bulma="fa fa-check"></i>
 </p>
-<p class="control has-icon has-icon-right">
-  <input class="input is-medium" type="email" placeholder="Email">
-  <i class="fa fa-check"></i>
+<p data-am-bulma="control has-icon has-icon-right">
+  <input data-am-bulma="input is-medium" type="email" placeholder="Email">
+  <i data-am-bulma="fa fa-check"></i>
 </p>
-<p class="control has-icon has-icon-right">
-  <input class="input is-large" type="email" placeholder="Email">
-  <i class="fa fa-check"></i>
+<p data-am-bulma="control has-icon has-icon-right">
+  <input data-am-bulma="input is-large" type="email" placeholder="Email">
+  <i data-am-bulma="fa fa-check"></i>
 </p>
 
 {% endhighlight %}
@@ -413,55 +413,55 @@ doc-subtab: form
 
     <hr>
 
-    <h3 class="title">Form addons</h3>
-    <div class="content">
+    <h3 data-am-bulma="title">Form addons</h3>
+    <div data-am-bulma="content">
       <p>If you want to <strong>attach</strong> controls together, use the <code>has-addons</code> modifier on the <code>control</code> container:</p>
     </div>
-    <div class="example">
-      <p class="control has-addons">
-        <input class="input" type="text" placeholder="Find a repository">
-        <a class="button is-info">
+    <div data-am-bulma="example">
+      <p data-am-bulma="control has-addons">
+        <input data-am-bulma="input" type="text" placeholder="Find a repository">
+        <a data-am-bulma="button is-info">
           Search
         </a>
       </p>
     </div>
 {% highlight html %}
-<p class="control has-addons">
-  <input class="input" type="text" placeholder="Find a repository">
-  <a class="button is-info">
+<p data-am-bulma="control has-addons">
+  <input data-am-bulma="input" type="text" placeholder="Find a repository">
+  <a data-am-bulma="button is-info">
     Search
   </a>
 </p>
 {% endhighlight %}
-    <div class="content">
+    <div data-am-bulma="content">
       <p>You can attach inputs, buttons, and dropdowns.</p>
     </div>
-    <div class="example">
-      <p class="control has-addons">
-        <span class="select">
+    <div data-am-bulma="example">
+      <p data-am-bulma="control has-addons">
+        <span data-am-bulma="select">
           <select>
             <option>$</option>
             <option>£</option>
             <option>€</option>
           </select>
         </span>
-        <input class="input" type="text" placeholder="Amount of money">
-        <a class="button is-success">
+        <input data-am-bulma="input" type="text" placeholder="Amount of money">
+        <a data-am-bulma="button is-success">
           Transfer
         </a>
       </p>
     </div>
 {% highlight html %}
-<p class="control has-addons">
-  <span class="select">
+<p data-am-bulma="control has-addons">
+  <span data-am-bulma="select">
     <select>
       <option>$</option>
       <option>£</option>
       <option>€</option>
     </select>
   </span>
-  <input class="input" type="text" placeholder="Amount of money">
-  <a class="button is-success">
+  <input data-am-bulma="input" type="text" placeholder="Amount of money">
+  <a data-am-bulma="button is-success">
     Transfer
   </a>
 </p>
@@ -469,22 +469,22 @@ doc-subtab: form
 
     <hr>
 
-    <h3 class="title">Form group</h3>
-    <div class="content">
+    <h3 data-am-bulma="title">Form group</h3>
+    <div data-am-bulma="content">
       <p>If you want to <strong>group</strong> controls together, use the <code>is-grouped</code> modifier on the <code>control</code> container:</p>
     </div>
-    <div class="example">
-      <p class="control is-grouped">
-        <input class="input" type="text" placeholder="Find a repository">
-        <a class="button is-info">
+    <div data-am-bulma="example">
+      <p data-am-bulma="control is-grouped">
+        <input data-am-bulma="input" type="text" placeholder="Find a repository">
+        <a data-am-bulma="button is-info">
           Search
         </a>
       </p>
     </div>
 {% highlight html %}
-<p class="control is-grouped">
-  <input class="input" type="text" placeholder="Find a repository">
-  <a class="button is-info">
+<p data-am-bulma="control is-grouped">
+  <input data-am-bulma="input" type="text" placeholder="Find a repository">
+  <a data-am-bulma="button is-info">
     Search
   </a>
 </p>
@@ -492,8 +492,8 @@ doc-subtab: form
 
     <hr>
 
-    <h3 class="title">Horizontal form</h3>
-    <div class="content">
+    <h3 data-am-bulma="title">Horizontal form</h3>
+    <div data-am-bulma="content">
       <p>If you want a <strong>horizontal</strong> form control, use the <code>is-horizontal</code> modifier on the <code>control</code> container, in which you include:</p>
       <ul>
         <li>
@@ -505,63 +505,63 @@ doc-subtab: form
       </ul>
       <p>You can of course use <code>is-grouped</code> or <code>has-addons</code> for the child elements.</p>
     </div>
-    <div class="control is-horizontal">
-      <div class="control-label">
-        <label class="label">From</label>
+    <div data-am-bulma="control is-horizontal">
+      <div data-am-bulma="control-label">
+        <label data-am-bulma="label">From</label>
       </div>
-      <div class="control is-grouped">
-        <input class="input" type="text" placeholder="Name">
-        <input class="input" type="email" placeholder="Email">
+      <div data-am-bulma="control is-grouped">
+        <input data-am-bulma="input" type="text" placeholder="Name">
+        <input data-am-bulma="input" type="email" placeholder="Email">
       </div>
     </div>
-    <div class="control is-horizontal">
-      <div class="control-label">
-        <label class="label">Subject</label>
+    <div data-am-bulma="control is-horizontal">
+      <div data-am-bulma="control-label">
+        <label data-am-bulma="label">Subject</label>
       </div>
-      <div class="control">
-        <div class="select is-fullwidth">
+      <div data-am-bulma="control">
+        <div data-am-bulma="select is-fullwidth">
           <select>
             <option>General enquiry</option>
           </select>
         </div>
       </div>
     </div>
-    <div class="control is-horizontal">
-      <div class="control-label">
-        <label class="label">Question</label>
+    <div data-am-bulma="control is-horizontal">
+      <div data-am-bulma="control-label">
+        <label data-am-bulma="label">Question</label>
       </div>
-      <div class="control">
-        <textarea class="textarea" placeholder="Explain how we can help you"></textarea>
+      <div data-am-bulma="control">
+        <textarea data-am-bulma="textarea" placeholder="Explain how we can help you"></textarea>
       </div>
     </div>
 {% highlight html %}
-<div class="control is-horizontal">
-  <div class="control-label">
-    <label class="label">From</label>
+<div data-am-bulma="control is-horizontal">
+  <div data-am-bulma="control-label">
+    <label data-am-bulma="label">From</label>
   </div>
-  <div class="control is-grouped">
-    <input class="input" type="text" placeholder="Name">
-    <input class="input" type="email" placeholder="Email">
+  <div data-am-bulma="control is-grouped">
+    <input data-am-bulma="input" type="text" placeholder="Name">
+    <input data-am-bulma="input" type="email" placeholder="Email">
   </div>
 </div>
-<div class="control is-horizontal">
-  <div class="control-label">
-    <label class="label">Subject</label>
+<div data-am-bulma="control is-horizontal">
+  <div data-am-bulma="control-label">
+    <label data-am-bulma="label">Subject</label>
   </div>
-  <div class="control">
-    <div class="select is-fullwidth">
+  <div data-am-bulma="control">
+    <div data-am-bulma="select is-fullwidth">
       <select>
         <option>General enquiry</option>
       </select>
     </div>
   </div>
 </div>
-<div class="control is-horizontal">
-  <div class="control-label">
-    <label class="label">Question</label>
+<div data-am-bulma="control is-horizontal">
+  <div data-am-bulma="control-label">
+    <label data-am-bulma="label">Question</label>
   </div>
-  <div class="control">
-    <textarea class="textarea" placeholder="Explain how we can help you"></textarea>
+  <div data-am-bulma="control">
+    <textarea data-am-bulma="textarea" placeholder="Explain how we can help you"></textarea>
   </div>
 </div>
 {% endhighlight %}

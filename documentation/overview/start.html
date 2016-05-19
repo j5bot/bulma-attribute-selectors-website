@@ -6,17 +6,17 @@ doc-subtab: start
 
 {% include subnav-overview.html %}
 
-<section class="section">
-  <div class="container">
-    <h1 class="title"><strong>3</strong> ways to start</h1>
-    <h2 class="subtitle">You only need <strong>1 CSS file</strong> to use Bulma</h2>
+<section data-am-bulma="section">
+  <div data-am-bulma="container">
+    <h1 data-am-bulma="title"><strong>3</strong> ways to start</h1>
+    <h2 data-am-bulma="subtitle">You only need <strong>1 CSS file</strong> to use Bulma</h2>
 
     <hr>
 
-    <article class="media is-large">
-      <div class="media-number">1</div>
-      <div class="media-content">
-        <p class="title is-5">
+    <article data-am-bulma="media is-large">
+      <div data-am-bulma="media-number">1</div>
+      <div data-am-bulma="media-content">
+        <p data-am-bulma="title is-5">
           Use <strong>NPM</strong> <em>(recommended)</em>:
         </p>
 {% highlight bash %}
@@ -25,10 +25,10 @@ npm install bulma
       </div>
     </article>
 
-    <article class="media is-large">
-      <div class="media-number">2</div>
-      <div class="media-content">
-        <p class="title is-5">
+    <article data-am-bulma="media is-large">
+      <div data-am-bulma="media-number">2</div>
+      <div data-am-bulma="media-content">
+        <p data-am-bulma="title is-5">
           Use the <a href="https://cdnjs.com/" target="_blank">cdnjs</a> <strong>CDN</strong>
           <br>
           <a href="https://cdnjs.com/libraries/bulma">https://cdnjs.com/libraries/bulma</a>
@@ -36,10 +36,10 @@ npm install bulma
       </div>
     </article>
 
-    <article class="media is-large">
-      <div class="media-number">3</div>
-      <div class="media-content">
-        <p class="title is-5">
+    <article data-am-bulma="media is-large">
+      <div data-am-bulma="media-number">3</div>
+      <div data-am-bulma="media-content">
+        <p data-am-bulma="title is-5">
           Download from the <strong>repository</strong>
           <br>
           <a href="https://github.com/jgthms/bulma/tree/master/css">https://github.com/jgthms/bulma/tree/master/css</a>
@@ -49,11 +49,11 @@ npm install bulma
 
     <hr>
 
-    <div class="message is-info">
-      <div class="message-header">
+    <div data-am-bulma="message is-info">
+      <div data-am-bulma="message-header">
         Font Awesome icons
       </div>
-      <div class="message-body">
+      <div data-am-bulma="message-body">
         <p>If you want to use icons with Bulma, don't forget to include <a href="https://fortawesome.github.io/Font-Awesome/">Font Awesome</a>:</p>
 {% highlight html %}
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -63,29 +63,29 @@ npm install bulma
 
     <hr>
 
-    <h3 class="title">Customizing with Sass</h3>
+    <h3 data-am-bulma="title">Customizing with Sass</h3>
 
-    <div class="content">
+    <div data-am-bulma="content">
       <p>If you're familiar with <a href="http://sass-lang.com/">Sass</a> and want to <strong>customize</strong> Bulma with your own colors and variables, just install Bulma via <strong>npm</strong>:</p>
     </div>
 
-    <article class="media is-large">
-      <div class="media-number">1</div>
-      <div class="media-content">
-        <p class="title is-5">
+    <article data-am-bulma="media is-large">
+      <div data-am-bulma="media-number">1</div>
+      <div data-am-bulma="media-content">
+        <p data-am-bulma="title is-5">
           <strong>Download</strong> the source files:
         </p>
 {% highlight bash %}
 npm install bulma
 {% endhighlight %}
-        <div class="content">or clone the repository: <a href="https://github.com/jgthms/bulma">https://github.com/jgthms/bulma</a></div>
+        <div data-am-bulma="content">or clone the repository: <a href="https://github.com/jgthms/bulma">https://github.com/jgthms/bulma</a></div>
       </div>
     </article>
 
-    <article class="media is-large">
-      <div class="media-number">2</div>
-      <div class="media-content">
-        <p class="title is-5">
+    <article data-am-bulma="media is-large">
+      <div data-am-bulma="media-number">2</div>
+      <div data-am-bulma="media-content">
+        <p data-am-bulma="title is-5">
           <strong>Set</strong> your variables:<br>
 {% highlight sass %}
 // Override initial variables here
@@ -106,10 +106,10 @@ $family-primary: $family-serif // Use the new serif family
       </div>
     </article>
 
-    <article class="media is-large">
-      <div class="media-number">3</div>
-      <div class="media-content">
-        <p class="title is-5">
+    <article data-am-bulma="media is-large">
+      <div data-am-bulma="media-number">3</div>
+      <div data-am-bulma="media-content">
+        <p data-am-bulma="title is-5">
           <strong>Import</strong> Bulma <em>after</em> having set your variables:<br>
 {% highlight sass %}
 // Override variables here

@@ -1,0 +1,120 @@
+// Components
+
+[data-am-bulma~="nav-toggle"]
+  @extend [data-am-bulma~="hamburger"]
+  // Responsiveness
+  +tablet
+    display: none
+
+[data-am-bulma~="nav-item"]
+  align-items: center
+  display: flex
+  justify-content: center
+  padding: 10px
+  a
+    flex-grow: 1
+  img
+    max-height: 24px
+  [data-am-bulma~="button + "][data-am-bulma~="button"]
+    margin-left: 10px
+  [data-am-bulma~="tag"]
+    &:first-child
+      margin-right: 5px
+    &:last-child
+      margin-left: 5px
+  // Responsiveness
+  +mobile
+    justify-content: flex-start
+
+[data-am-bulma~="nav-item a"],
+a[data-am-bulma~="nav-item"]
+  color: $text
+  &:hover
+    color: $link-hover
+  // Modifiers
+  &[data-am-bulma~="is-active"]
+    color: $link-active
+  &[data-am-bulma~="is-tab"]
+    border-bottom: 1px solid transparent
+    border-top: 1px solid transparent
+    padding-left: 12px
+    padding-right: 12px
+    &:hover
+      border-bottom: 1px solid $link
+      border-top: 1px solid transparent
+    &[data-am-bulma~="is-active"]
+      border-bottom: 3px solid $link
+      border-top: 3px solid transparent
+      color: $link
+
+// Containers
+
+[data-am-bulma~="nav-menu"]
+  // Responsiveness
+  +mobile
+    background: $white
+    box-shadow: 0 4px 7px rgba($black, 0.1)
+    left: 0
+    display: none
+    right: 0
+    top: 100%
+    position: absolute
+    [data-am-bulma~="nav-item"]
+      border-top: 1px solid rgba($border, 0.5)
+      padding: 10px
+    &[data-am-bulma~="is-active"]
+      display: block
+
+[data-am-bulma~="nav-left"]
+  align-items: stretch
+  display: flex
+  flex: 1
+  justify-content: flex-start
+  overflow: hidden
+  overflow-x: auto
+  white-space: nowrap
+
+[data-am-bulma~="nav-center"]
+  align-items: stretch
+  display: flex
+  justify-content: center
+
+[data-am-bulma~="nav-right"]
+  // Responsiveness
+  +tablet
+    align-items: stretch
+    display: flex
+    flex: 1
+    justify-content: flex-end
+
+// Main container
+
+[data-am-bulma~="nav"]
+  align-items: stretch
+  background: $white
+  display: flex
+  min-height: $nav-height
+  position: relative
+  text-align: center
+  z-index: 2
+  & > [data-am-bulma~="container"]
+    align-items: stretch
+    display: flex
+    min-height: $nav-height
+    width: 100%
+    & > [data-am-bulma~="nav-left"]
+      & > [data-am-bulma~="nav-item"]:first-child:not([data-am-bulma~="is-tab"])
+        padding-left: 0
+    & > [data-am-bulma~="nav-right"]
+      & > [data-am-bulma~="nav-item"]:last-child:not([data-am-bulma~="is-tab"])
+        padding-right: 0
+  [data-am-bulma~="container > &"]
+    & > [data-am-bulma~="nav-left"]
+      & > [data-am-bulma~="nav-item"]:first-child:not([data-am-bulma~="is-tab"])
+        padding-left: 0
+    & > [data-am-bulma~="nav-right"]
+      & > [data-am-bulma~="nav-item"]:last-child:not([data-am-bulma~="is-tab"])
+        padding-right: 0
+  // Modifiers
+  &[data-am-bulma~="has-shadow"]
+    box-shadow: 0 2px 3px rgba($black, 0.1)

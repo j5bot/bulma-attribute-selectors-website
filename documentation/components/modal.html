@@ -6,14 +6,14 @@ doc-subtab: modal
 
 {% include subnav-components.html %}
 
-<section class="section">
-  <div class="container">
-    <h1 class="title">Modal</h1>
-    <h2 class="subtitle">A classic <strong>modal</strong> overlay, in which you can include <em>any</em> content you want</h2>
+<section data-am-bulma="section">
+  <div data-am-bulma="container">
+    <h1 data-am-bulma="title">Modal</h1>
+    <h2 data-am-bulma="subtitle">A classic <strong>modal</strong> overlay, in which you can include <em>any</em> content you want</h2>
 
     <hr>
 
-    <div class="content">
+    <div data-am-bulma="content">
       <p>The modal structure is very simple:</p>
       <ul>
         <li>
@@ -32,83 +32,83 @@ doc-subtab: modal
         </li>
       </ul>
       <p>
-        <a class="button is-primary is-large modal-button" data-target="#modal">Launch example modal</a>
+        <a data-am-bulma="button is-primary is-large modal-button" data-target="#modal">Launch example modal</a>
       </p>
     </div>
 
 {% highlight html %}
-<div class="modal">
-  <div class="modal-background"></div>
-  <div class="modal-container">
-    <div class="modal-content">
+<div data-am-bulma="modal">
+  <div data-am-bulma="modal-background"></div>
+  <div data-am-bulma="modal-container">
+    <div data-am-bulma="modal-content">
       <!-- Any other Bulma elements you want -->
     </div>
   </div>
-  <button class="modal-close"></button>
+  <button data-am-bulma="modal-close"></button>
 </div>
 {% endhighlight %}
 
-    <div class="content">
+    <div data-am-bulma="content">
       <p>To <strong>activate</strong> the modal, just add the <code>is-active</code> modifier on the <code>.modal</code> container</p>
     </div>
 
-    <div class="message is-danger">
-      <div class="message-header">
+    <div data-am-bulma="message is-danger">
+      <div data-am-bulma="message-header">
         No JavaScript
       </div>
-      <div class="message-body">
+      <div data-am-bulma="message-body">
         Bulma does <strong>not</strong> include any JavaScript interaction. You will have to implement the class toggle yourself
       </div>
     </div>
 
     <hr>
 
-    <h3 class="title">Image modal</h3>
+    <h3 data-am-bulma="title">Image modal</h3>
 
-    <div class="content">
+    <div data-am-bulma="content">
       <p>Because a modal can contain <strong>anything you want</strong>, you can very simply use it to build an image gallery for example:</p>
       <p>
-        <a class="button is-primary is-large modal-button" data-target="#modal-bis">Launch image modal</a>
+        <a data-am-bulma="button is-primary is-large modal-button" data-target="#modal-bis">Launch image modal</a>
       </p>
     </div>
 
 {% highlight html %}
-<div class="modal">
-  <div class="modal-background"></div>
-  <div class="modal-content">
-    <p class="image is-4by3">
+<div data-am-bulma="modal">
+  <div data-am-bulma="modal-background"></div>
+  <div data-am-bulma="modal-content">
+    <p data-am-bulma="image is-4by3">
       <img src="http://placehold.it/1280x960">
     </p>
   </div>
-  <button class="modal-close"></button>
+  <button data-am-bulma="modal-close"></button>
 </div>
 {% endhighlight %}
 
     <hr>
 
-    <h3 class="title">Modal card</h3>
+    <h3 data-am-bulma="title">Modal card</h3>
 
-    <div class="content">
+    <div data-am-bulma="content">
       <p>If you want a more classic modal, with a <strong>head</strong>, a <strong>body</strong> and a <strong>foot</strong>, use the <code>modal-card</code>.</p>
       <p>
-        <a class="button is-primary is-large modal-button" data-target="#modal-ter">Launch modal card</a>
+        <a data-am-bulma="button is-primary is-large modal-button" data-target="#modal-ter">Launch modal card</a>
       </p>
     </div>
 
 {% highlight html %}
-<div class="modal">
-  <div class="modal-background"></div>
-  <div class="modal-card">
-    <header class="modal-card-head">
-      <p class="modal-card-title">Modal title</p>
-      <button class="delete"></button>
+<div data-am-bulma="modal">
+  <div data-am-bulma="modal-background"></div>
+  <div data-am-bulma="modal-card">
+    <header data-am-bulma="modal-card-head">
+      <p data-am-bulma="modal-card-title">Modal title</p>
+      <button data-am-bulma="delete"></button>
     </header>
-    <section class="modal-card-body">
+    <section data-am-bulma="modal-card-body">
       <!-- Content ... -->
     </section>
-    <footer class="modal-card-foot">
-      <a class="button is-primary">Save changes</a>
-      <a class="button">Cancel</a>
+    <footer data-am-bulma="modal-card-foot">
+      <a data-am-bulma="button is-primary">Save changes</a>
+      <a data-am-bulma="button">Cancel</a>
     </footer>
   </div>
 </div>
@@ -117,34 +117,34 @@ doc-subtab: modal
   </div>
 </section>
 
-<div id="modal" class="modal">
-  <div class="modal-background"></div>
-  <div class="modal-content">
-    <div class="box">
-      <article class="media">
-        <div class="media-left">
-          <figure class="image is-64x64">
+<div id="modal" data-am-bulma="modal">
+  <div data-am-bulma="modal-background"></div>
+  <div data-am-bulma="modal-content">
+    <div data-am-bulma="box">
+      <article data-am-bulma="media">
+        <div data-am-bulma="media-left">
+          <figure data-am-bulma="image is-64x64">
             <img src="http://placehold.it/128x128" alt="Image">
           </figure>
         </div>
-        <div class="media-content">
-          <div class="content">
+        <div data-am-bulma="media-content">
+          <div data-am-bulma="content">
             <p>
               <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
               <br>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
             </p>
           </div>
-          <nav class="level">
-            <div class="level-left">
-              <a class="level-item">
-                <span class="icon is-small"><i class="fa fa-reply"></i></span>
+          <nav data-am-bulma="level">
+            <div data-am-bulma="level-left">
+              <a data-am-bulma="level-item">
+                <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-reply"></i></span>
               </a>
-              <a class="level-item">
-                <span class="icon is-small"><i class="fa fa-retweet"></i></span>
+              <a data-am-bulma="level-item">
+                <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-retweet"></i></span>
               </a>
-              <a class="level-item">
-                <span class="icon is-small"><i class="fa fa-heart"></i></span>
+              <a data-am-bulma="level-item">
+                <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-heart"></i></span>
               </a>
             </div>
           </nav>
@@ -152,28 +152,28 @@ doc-subtab: modal
       </article>
     </div>
   </div>
-  <button class="modal-close"></button>
+  <button data-am-bulma="modal-close"></button>
 </div>
 
-<div id="modal-bis" class="modal">
-  <div class="modal-background"></div>
-  <div class="modal-content">
-    <p class="image is-4by3">
+<div id="modal-bis" data-am-bulma="modal">
+  <div data-am-bulma="modal-background"></div>
+  <div data-am-bulma="modal-content">
+    <p data-am-bulma="image is-4by3">
       <img src="http://placehold.it/1280x960">
     </p>
   </div>
-  <button class="modal-close"></button>
+  <button data-am-bulma="modal-close"></button>
 </div>
 
-<div id="modal-ter" class="modal">
-  <div class="modal-background"></div>
-  <div class="modal-card">
-    <header class="modal-card-head">
-      <p class="modal-card-title">Modal title</p>
-      <button class="delete"></button>
+<div id="modal-ter" data-am-bulma="modal">
+  <div data-am-bulma="modal-background"></div>
+  <div data-am-bulma="modal-card">
+    <header data-am-bulma="modal-card-head">
+      <p data-am-bulma="modal-card-title">Modal title</p>
+      <button data-am-bulma="delete"></button>
     </header>
-    <section class="modal-card-body">
-      <div class="content">
+    <section data-am-bulma="modal-card-body">
+      <div data-am-bulma="content">
         <h1>Hello World</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</p>
         <h2>Second level</h2>
@@ -210,9 +210,9 @@ doc-subtab: modal
         </ul>
       </div>
     </section>
-    <footer class="modal-card-foot">
-      <a class="button is-success">Save changes</a>
-      <a class="button">Cancel</a>
+    <footer data-am-bulma="modal-card-foot">
+      <a data-am-bulma="button is-success">Save changes</a>
+      <a data-am-bulma="button">Cancel</a>
     </footer>
   </div>
 </div>

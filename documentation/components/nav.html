@@ -6,16 +6,16 @@ doc-subtab: nav
 
 {% include subnav-components.html %}
 
-<section class="section">
-  <div class="container">
-    <h1 class="title">Nav</h1>
-    <h2 class="subtitle">
+<section data-am-bulma="section">
+  <div data-am-bulma="container">
+    <h1 data-am-bulma="title">Nav</h1>
+    <h2 data-am-bulma="subtitle">
       A responsive horizontal <strong>nav bar</strong> that can contain links, tabs, buttons, icons, and a logo
     </h2>
 
     <hr>
 
-    <div class="content">
+    <div data-am-bulma="content">
       <p>
         The <code>nav</code> container can have <strong>3 parts</strong>:
       </p>
@@ -33,54 +33,54 @@ doc-subtab: nav
       </ul>
     </div>
 
-<div class="example">
-<nav class="nav">
-  <div class="nav-left">
-    <a class="nav-item" href="#">
+<div data-am-bulma="example">
+<nav data-am-bulma="nav">
+  <div data-am-bulma="nav-left">
+    <a data-am-bulma="nav-item" href="#">
       <img src="{{ site.baseurl }}/images/bulma.png" alt="Bulma logo}">
     </a>
   </div>
 
-  <div class="nav-center">
-    <a class="nav-item" href="#">
-      <span class="icon">
-        <i class="fa fa-github"></i>
+  <div data-am-bulma="nav-center">
+    <a data-am-bulma="nav-item" href="#">
+      <span data-am-bulma="icon">
+        <i data-am-bulma="fa fa-github"></i>
       </span>
     </a>
-    <a class="nav-item" href="#">
-      <span class="icon">
-        <i class="fa fa-twitter"></i>
+    <a data-am-bulma="nav-item" href="#">
+      <span data-am-bulma="icon">
+        <i data-am-bulma="fa fa-twitter"></i>
       </span>
     </a>
   </div>
 
-  <span class="nav-toggle">
+  <span data-am-bulma="nav-toggle">
     <span></span>
     <span></span>
     <span></span>
   </span>
 
-  <div class="nav-right nav-menu">
-    <a class="nav-item" href="#">
+  <div data-am-bulma="nav-right nav-menu">
+    <a data-am-bulma="nav-item" href="#">
       Home
     </a>
-    <a class="nav-item" href="#">
+    <a data-am-bulma="nav-item" href="#">
       Documentation
     </a>
-    <a class="nav-item" href="#">
+    <a data-am-bulma="nav-item" href="#">
       Blog
     </a>
 
-    <span class="nav-item">
-      <a class="button" >
-        <span class="icon">
-          <i class="fa fa-twitter"></i>
+    <span data-am-bulma="nav-item">
+      <a data-am-bulma="button" >
+        <span data-am-bulma="icon">
+          <i data-am-bulma="fa fa-twitter"></i>
         </span>
         <span>Tweet</span>
       </a>
-      <a class="button is-primary" href="#">
-        <span class="icon">
-          <i class="fa fa-download"></i>
+      <a data-am-bulma="button is-primary" href="#">
+        <span data-am-bulma="icon">
+          <i data-am-bulma="fa fa-download"></i>
         </span>
         <span>Download</span>
       </a>
@@ -90,53 +90,53 @@ doc-subtab: nav
 </div>
 
 {% highlight html %}
-<nav class="nav">
-  <div class="nav-left">
-    <a class="nav-item" href="#">
+<nav data-am-bulma="nav">
+  <div data-am-bulma="nav-left">
+    <a data-am-bulma="nav-item" href="#">
       <img src="{{ site.baseurl }}/images/bulma.png" alt="Bulma logo}">
     </a>
   </div>
 
-  <div class="nav-center">
-    <a class="nav-item" href="#">
-      <span class="icon">
-        <i class="fa fa-github"></i>
+  <div data-am-bulma="nav-center">
+    <a data-am-bulma="nav-item" href="#">
+      <span data-am-bulma="icon">
+        <i data-am-bulma="fa fa-github"></i>
       </span>
     </a>
-    <a class="nav-item" href="#">
-      <span class="icon">
-        <i class="fa fa-twitter"></i>
+    <a data-am-bulma="nav-item" href="#">
+      <span data-am-bulma="icon">
+        <i data-am-bulma="fa fa-twitter"></i>
       </span>
     </a>
   </div>
 
-  <span class="nav-toggle">
+  <span data-am-bulma="nav-toggle">
     <span></span>
     <span></span>
     <span></span>
   </span>
 
-  <div class="nav-right nav-menu">
-    <a class="nav-item" href="#">
+  <div data-am-bulma="nav-right nav-menu">
+    <a data-am-bulma="nav-item" href="#">
       Home
     </a>
-    <a class="nav-item" href="#">
+    <a data-am-bulma="nav-item" href="#">
       Documentation
     </a>
-    <a class="nav-item" href="#">
+    <a data-am-bulma="nav-item" href="#">
       Blog
     </a>
 
-    <span class="nav-item">
-      <a class="button" >
-        <span class="icon">
-          <i class="fa fa-twitter"></i>
+    <span data-am-bulma="nav-item">
+      <a data-am-bulma="button" >
+        <span data-am-bulma="icon">
+          <i data-am-bulma="fa fa-twitter"></i>
         </span>
         <span>Tweet</span>
       </a>
-      <a class="button is-primary" href="#">
-        <span class="icon">
-          <i class="fa fa-download"></i>
+      <a data-am-bulma="button is-primary" href="#">
+        <span data-am-bulma="icon">
+          <i data-am-bulma="fa fa-download"></i>
         </span>
         <span>Download</span>
       </a>
@@ -148,9 +148,9 @@ doc-subtab: nav
 
     <hr>
 
-    <h3 class="title">Modifiers</h3>
+    <h3 data-am-bulma="title">Modifiers</h3>
 
-    <div class="content">
+    <div data-am-bulma="content">
       <ul>
         <li>the <code>nav</code> container can have a <strong>shadow</strong> by adding the <code>has-shadow</code> modifier</li>
         <li>the <code>nav-item</code> can become <strong>active</strong> by adding the <code>is-active</code> modifier</li>
@@ -159,39 +159,39 @@ doc-subtab: nav
     </div>
   </div>
 
-<div class="example">
-<nav class="nav has-shadow">
-  <div class="container">
-    <div class="nav-left">
-      <a class="nav-item is-tab is-active">Card</a>
-      <a class="nav-item is-tab">Level</a>
-      <a class="nav-item is-tab">Media object</a>
-      <a class="nav-item is-tab">Menu</a>
-      <a class="nav-item is-tab">Message</a>
-      <a class="nav-item is-tab">Modal</a>
-      <a class="nav-item is-tab">Nav</a>
-      <a class="nav-item is-tab">Pagination</a>
-      <a class="nav-item is-tab">Panel</a>
-      <a class="nav-item is-tab">Tabs</a>
+<div data-am-bulma="example">
+<nav data-am-bulma="nav has-shadow">
+  <div data-am-bulma="container">
+    <div data-am-bulma="nav-left">
+      <a data-am-bulma="nav-item is-tab is-active">Card</a>
+      <a data-am-bulma="nav-item is-tab">Level</a>
+      <a data-am-bulma="nav-item is-tab">Media object</a>
+      <a data-am-bulma="nav-item is-tab">Menu</a>
+      <a data-am-bulma="nav-item is-tab">Message</a>
+      <a data-am-bulma="nav-item is-tab">Modal</a>
+      <a data-am-bulma="nav-item is-tab">Nav</a>
+      <a data-am-bulma="nav-item is-tab">Pagination</a>
+      <a data-am-bulma="nav-item is-tab">Panel</a>
+      <a data-am-bulma="nav-item is-tab">Tabs</a>
     </div>
   </div>
 </nav>
 </div>
 
 {% highlight html %}
-<nav class="nav has-shadow">
-  <div class="container">
-    <div class="nav-left">
-      <a class="nav-item is-tab is-active">Card</a>
-      <a class="nav-item is-tab">Level</a>
-      <a class="nav-item is-tab">Media object</a>
-      <a class="nav-item is-tab">Menu</a>
-      <a class="nav-item is-tab">Message</a>
-      <a class="nav-item is-tab">Modal</a>
-      <a class="nav-item is-tab">Nav</a>
-      <a class="nav-item is-tab">Pagination</a>
-      <a class="nav-item is-tab">Panel</a>
-      <a class="nav-item is-tab">Tabs</a>
+<nav data-am-bulma="nav has-shadow">
+  <div data-am-bulma="container">
+    <div data-am-bulma="nav-left">
+      <a data-am-bulma="nav-item is-tab is-active">Card</a>
+      <a data-am-bulma="nav-item is-tab">Level</a>
+      <a data-am-bulma="nav-item is-tab">Media object</a>
+      <a data-am-bulma="nav-item is-tab">Menu</a>
+      <a data-am-bulma="nav-item is-tab">Message</a>
+      <a data-am-bulma="nav-item is-tab">Modal</a>
+      <a data-am-bulma="nav-item is-tab">Nav</a>
+      <a data-am-bulma="nav-item is-tab">Pagination</a>
+      <a data-am-bulma="nav-item is-tab">Panel</a>
+      <a data-am-bulma="nav-item is-tab">Tabs</a>
     </div>
   </div>
 </nav>

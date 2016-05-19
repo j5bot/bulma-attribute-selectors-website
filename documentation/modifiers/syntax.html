@@ -6,50 +6,50 @@ doc-subtab: syntax
 
 {% include subnav-modifiers.html %}
 
-<section class="section">
-  <div class="container">
-    <h1 class="title">Modifiers syntax</h1>
-    <h2 class="subtitle">Most Bulma elements have <strong>alternative</strong> styles. To apply them, you only need to append one of the <strong>modifier classes</strong>.
+<section data-am-bulma="section">
+  <div data-am-bulma="container">
+    <h1 data-am-bulma="title">Modifiers syntax</h1>
+    <h2 data-am-bulma="subtitle">Most Bulma elements have <strong>alternative</strong> styles. To apply them, you only need to append one of the <strong>modifier classes</strong>.
     <br>
     They all start with <code>is-</code> or <code>has-</code>.</h2>
     <hr>
-    <div class="columns">
-      <div class="column">
+    <div data-am-bulma="columns">
+      <div data-am-bulma="column">
         <p>Let's start with a simple <strong>button</strong> that uses the <code>"button"</code> CSS class:</p>
       </div>
-      <div class="column">
+      <div data-am-bulma="column">
         <p>
-          <a class="button">Button</a>
+          <a data-am-bulma="button">Button</a>
         </p>
       </div>
-      <div class="column is-half">
+      <div data-am-bulma="column is-half">
 {% highlight html %}
-<a class="button">
+<a data-am-bulma="button">
   Button
 </a>
 {% endhighlight %}
       </div>
     </div>
-    <div class="columns">
-      <div class="column">
+    <div data-am-bulma="columns">
+      <div data-am-bulma="column">
         <p>By <strong>adding</strong> the <code>"is-primary"</code> CSS class, you can modify the <strong>color</strong>:</p>
       </div>
-      <div class="column">
+      <div data-am-bulma="column">
         <p>
-          <a class="button is-primary">Button</a>
+          <a data-am-bulma="button is-primary">Button</a>
         </p>
       </div>
-      <div class="column is-half">
+      <div data-am-bulma="column is-half">
 {% highlight html %}
-<a class="button is-primary">
+<a data-am-bulma="button is-primary">
   Button
 </a>
 {% endhighlight %}
       </div>
     </div>
-    <div class="columns">
-      <div class="column">
-        <div class="content">
+    <div data-am-bulma="columns">
+      <div data-am-bulma="column">
+        <div data-am-bulma="content">
           <p>You can use one of the <strong>5 main colors</strong>:</p>
           <ul>
             <li><code>is-primary</code></li>
@@ -60,46 +60,46 @@ doc-subtab: syntax
           </ul>
         </div>
       </div>
-      <div class="column">
-        <p class="control">
-          <a class="button is-primary">Button</a>
+      <div data-am-bulma="column">
+        <p data-am-bulma="control">
+          <a data-am-bulma="button is-primary">Button</a>
         </p>
-        <p class="control">
-          <a class="button is-info">Button</a>
+        <p data-am-bulma="control">
+          <a data-am-bulma="button is-info">Button</a>
         </p>
-        <p class="control">
-          <a class="button is-success">Button</a>
+        <p data-am-bulma="control">
+          <a data-am-bulma="button is-success">Button</a>
         </p>
-        <p class="control">
-          <a class="button is-warning">Button</a>
+        <p data-am-bulma="control">
+          <a data-am-bulma="button is-warning">Button</a>
         </p>
-        <p class="control">
-          <a class="button is-danger">Button</a>
+        <p data-am-bulma="control">
+          <a data-am-bulma="button is-danger">Button</a>
         </p>
       </div>
-      <div class="column is-half">
+      <div data-am-bulma="column is-half">
 {% highlight html %}
-<a class="button is-primary">
+<a data-am-bulma="button is-primary">
   Button
 </a>
-<a class="button is-info">
+<a data-am-bulma="button is-info">
   Button
 </a>
-<a class="button is-success">
+<a data-am-bulma="button is-success">
   Button
 </a>
-<a class="button is-warning">
+<a data-am-bulma="button is-warning">
   Button
 </a>
-<a class="button is-danger">
+<a data-am-bulma="button is-danger">
   Button
 </a>
 {% endhighlight %}
       </div>
     </div>
-    <div class="columns">
-      <div class="column">
-        <div class="content">
+    <div data-am-bulma="columns">
+      <div data-am-bulma="column">
+        <div data-am-bulma="content">
           <p>You can also alter the <strong>size</strong>:</p>
           <ul>
             <li><code>is-small</code></li>
@@ -108,40 +108,40 @@ doc-subtab: syntax
           </ul>
         </div>
       </div>
-      <div class="column">
-        <p class="control">
-          <a class="button is-small">Button</a>
+      <div data-am-bulma="column">
+        <p data-am-bulma="control">
+          <a data-am-bulma="button is-small">Button</a>
         </p>
-        <p class="control">
-          <a class="button">Button</a>
+        <p data-am-bulma="control">
+          <a data-am-bulma="button">Button</a>
         </p>
-        <p class="control">
-          <a class="button is-medium">Button</a>
+        <p data-am-bulma="control">
+          <a data-am-bulma="button is-medium">Button</a>
         </p>
-        <p class="control">
-          <a class="button is-large">Button</a>
+        <p data-am-bulma="control">
+          <a data-am-bulma="button is-large">Button</a>
         </p>
       </div>
-      <div class="column is-half">
+      <div data-am-bulma="column is-half">
 {% highlight html %}
-<p class="control">
-  <a class="button is-small">Button</a>
+<p data-am-bulma="control">
+  <a data-am-bulma="button is-small">Button</a>
 </p>
-<p class="control">
-  <a class="button">Button</a>
+<p data-am-bulma="control">
+  <a data-am-bulma="button">Button</a>
 </p>
-<p class="control">
-  <a class="button is-medium">Button</a>
+<p data-am-bulma="control">
+  <a data-am-bulma="button is-medium">Button</a>
 </p>
-<p class="control">
-  <a class="button is-large">Button</a>
+<p data-am-bulma="control">
+  <a data-am-bulma="button is-large">Button</a>
 </p>
 {% endhighlight %}
       </div>
     </div>
-    <div class="columns">
-      <div class="column">
-        <div class="content">
+    <div data-am-bulma="columns">
+      <div data-am-bulma="column">
+        <div data-am-bulma="content">
           <p>Or the <strong>style</strong> or <strong>state</strong>:</p>
           <ul>
             <li><code>is-outlined</code></li>
@@ -150,26 +150,26 @@ doc-subtab: syntax
           </ul>
         </div>
       </div>
-      <div class="column">
-        <p class="control">
-          <a class="button is-primary is-outlined">Button</a>
+      <div data-am-bulma="column">
+        <p data-am-bulma="control">
+          <a data-am-bulma="button is-primary is-outlined">Button</a>
         </p>
-        <p class="control">
-          <a class="button is-primary is-loading">Button</a>
+        <p data-am-bulma="control">
+          <a data-am-bulma="button is-primary is-loading">Button</a>
         </p>
-        <p class="control">
-          <a class="button is-primary is-disabled">Button</a>
+        <p data-am-bulma="control">
+          <a data-am-bulma="button is-primary is-disabled">Button</a>
         </p>
       </div>
-      <div class="column is-half">
+      <div data-am-bulma="column is-half">
 {% highlight html %}
-<a class="button is-primary is-outlined">
+<a data-am-bulma="button is-primary is-outlined">
   Button
 </a>
-<a class="button is-primary is-loading">
+<a data-am-bulma="button is-primary is-loading">
   Button
 </a>
-<a class="button is-primary is-disabled">
+<a data-am-bulma="button is-primary is-disabled">
   Button
 </a>
 {% endhighlight %}

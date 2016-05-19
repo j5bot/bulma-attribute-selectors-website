@@ -6,44 +6,44 @@ doc-subtab: header
 
 {% include subnav-layout.html %}
 
-<section class="section">
-  <div class="container">
-    <h1 class="title">Header</h1>
-    <h2 class="subtitle">
+<section data-am-bulma="section">
+  <div data-am-bulma="container">
+    <h1 data-am-bulma="title">Header</h1>
+    <h2 data-am-bulma="subtitle">
       A responsive horizontal <strong>header</strong> that can contain links, tabs, buttons, icons, and a logo
     </h2>
 
     <hr>
   </div>
 
-  <div class="example">
-    <header class="header">
-      <div class="container">
-        <div class="header-left">
-          <a class="header-item" href="index.html">
+  <div data-am-bulma="example">
+    <header data-am-bulma="header">
+      <div data-am-bulma="container">
+        <div data-am-bulma="header-left">
+          <a data-am-bulma="header-item" href="index.html">
             <img src="{{ site.baseurl }}/images/bulma.png" alt="Logo">
           </a>
-          <a class="header-tab" href="#">
+          <a data-am-bulma="header-tab" href="#">
             Tab
           </a>
-          <a class="header-tab is-active" href="#">
+          <a data-am-bulma="header-tab is-active" href="#">
             Active tab
           </a>
         </div>
-        <span class="header-toggle">
+        <span data-am-bulma="header-toggle">
           <span></span>
           <span></span>
           <span></span>
         </span>
-        <div class="header-right header-menu">
-          <span class="header-item">
+        <div data-am-bulma="header-right header-menu">
+          <span data-am-bulma="header-item">
             <a href="#">Nav item</a>
           </span>
-          <span class="header-item">
+          <span data-am-bulma="header-item">
             <a href="#">Other nav item</a>
           </span>
-          <span class="header-item">
-            <a class="button" href="#">Button</a>
+          <span data-am-bulma="header-item">
+            <a data-am-bulma="button" href="#">Button</a>
           </span>
         </div>
       </div>
@@ -51,38 +51,38 @@ doc-subtab: header
   </div>
 
 {% highlight html %}
-<header class="header">
-  <div class="container">
+<header data-am-bulma="header">
+  <div data-am-bulma="container">
     <!-- Left side -->
-    <div class="header-left">
-      <a class="header-item" href="#">
+    <div data-am-bulma="header-left">
+      <a data-am-bulma="header-item" href="#">
         <img src="images/bulma.png" alt="Logo">
       </a>
-      <a class="header-tab" href="#">
+      <a data-am-bulma="header-tab" href="#">
         Tab
       </a>
-      <a class="header-tab is-active" href="#">
+      <a data-am-bulma="header-tab is-active" href="#">
         Active tab
       </a>
     </div>
 
     <!-- Hamburger menu (on mobile) -->
-    <span class="header-toggle">
+    <span data-am-bulma="header-toggle">
       <span></span>
       <span></span>
       <span></span>
     </span>
 
     <!-- Right side -->
-    <div class="header-right header-menu">
-      <span class="header-item">
+    <div data-am-bulma="header-right header-menu">
+      <span data-am-bulma="header-item">
         <a href="#">Nav item</a>
       </span>
-      <span class="header-item">
+      <span data-am-bulma="header-item">
         <a href="#">Other nav item</a>
       </span>
-      <span class="header-item">
-        <a class="button" href="#">Button</a>
+      <span data-am-bulma="header-item">
+        <a data-am-bulma="button" href="#">Button</a>
       </span>
     </div>
   </div>

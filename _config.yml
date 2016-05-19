@@ -4,8 +4,8 @@ title: "Bulma: a modern CSS framework based on Flexbox"
 description: > # this means to ignore newlines until "baseurl:"
   Bulma is a CSS framework based on Flexbox and built with Sass
 baseurl: ""
-url: "http://bulma.io"
-github: "https://github.com/jgthms/bulma"
+url: "http://j5bot.github.io/bulma-attribute-selectors-website"
+github: "https://github.com/j5bot/bulma-attribute-selectors"
 download: "https://github.com/jgthms/bulma/archive/0.0.26.zip"
 version: 0.0.26
 permalink: pretty

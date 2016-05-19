@@ -6,22 +6,22 @@ doc-subtab: tabs
 
 {% include subnav-components.html %}
 
-<section class="section">
-  <div class="container">
-    <h1 class="title">Tabs</h1>
-    <h2 class="subtitle">Simple responsive horizontal navigation <strong>tabs</strong>, with different styles</h2>
+<section data-am-bulma="section">
+  <div data-am-bulma="container">
+    <h1 data-am-bulma="title">Tabs</h1>
+    <h2 data-am-bulma="subtitle">Simple responsive horizontal navigation <strong>tabs</strong>, with different styles</h2>
 
     <hr>
 
-    <div class="content">
+    <div data-am-bulma="content">
       <p><strong>Tabs</strong> only require a <code>tabs</code> container and a <code>&lt;ul&gt;</code> list.<br>
         The <strong>default</strong> tabs style has a single border at the bottom.</p>
     </div>
 
-<div class="example">
-  <div class="tabs">
+<div data-am-bulma="example">
+  <div data-am-bulma="tabs">
     <ul>
-      <li class="is-active"><a>Pictures</a></li>
+      <li data-am-bulma="is-active"><a>Pictures</a></li>
       <li><a>Music</a></li>
       <li><a>Videos</a></li>
       <li><a>Documents</a></li>
@@ -29,9 +29,9 @@ doc-subtab: tabs
   </div>
 </div>
 {% highlight html %}
-<div class="tabs">
+<div data-am-bulma="tabs">
   <ul>
-    <li class="is-active"><a>Pictures</a></li>
+    <li data-am-bulma="is-active"><a>Pictures</a></li>
     <li><a>Music</a></li>
     <li><a>Videos</a></li>
     <li><a>Documents</a></li>
@@ -41,18 +41,18 @@ doc-subtab: tabs
 
     <hr>
 
-    <h3 class="title">Alignment</h3>
+    <h3 data-am-bulma="title">Alignment</h3>
 
-    <div class="content">
+    <div data-am-bulma="content">
       <p>
         To align the tabs list, use the <code>is-centered</code> or <code>is-right</code> modifier on the <code>.tabs</code> container:
       </p>
     </div>
 
-<div class="example">
-  <div class="tabs is-centered">
+<div data-am-bulma="example">
+  <div data-am-bulma="tabs is-centered">
     <ul>
-      <li class="is-active"><a>Pictures</a></li>
+      <li data-am-bulma="is-active"><a>Pictures</a></li>
       <li><a>Music</a></li>
       <li><a>Videos</a></li>
       <li><a>Documents</a></li>
@@ -60,9 +60,9 @@ doc-subtab: tabs
   </div>
 </div>
 {% highlight html %}
-<div class="tabs is-centered">
+<div data-am-bulma="tabs is-centered">
   <ul>
-    <li class="is-active"><a>Pictures</a></li>
+    <li data-am-bulma="is-active"><a>Pictures</a></li>
     <li><a>Music</a></li>
     <li><a>Videos</a></li>
     <li><a>Documents</a></li>
@@ -70,10 +70,10 @@ doc-subtab: tabs
 </div>
 {% endhighlight %}
 
-<div class="example">
-  <div class="tabs is-right">
+<div data-am-bulma="example">
+  <div data-am-bulma="tabs is-right">
     <ul>
-      <li class="is-active"><a>Pictures</a></li>
+      <li data-am-bulma="is-active"><a>Pictures</a></li>
       <li><a>Music</a></li>
       <li><a>Videos</a></li>
       <li><a>Documents</a></li>
@@ -82,9 +82,9 @@ doc-subtab: tabs
 </div>
 
 {% highlight html %}
-<div class="tabs is-right">
+<div data-am-bulma="tabs is-right">
   <ul>
-    <li class="is-active"><a>Pictures</a></li>
+    <li data-am-bulma="is-active"><a>Pictures</a></li>
     <li><a>Music</a></li>
     <li><a>Videos</a></li>
     <li><a>Documents</a></li>
@@ -92,7 +92,7 @@ doc-subtab: tabs
 </div>
 {% endhighlight %}
 
-    <div class="content">
+    <div data-am-bulma="content">
       <p>
         To have several lists aligned differently, use one of <strong>3 modifiers</strong> on the <code>ul</code>:
       </p>
@@ -103,39 +103,39 @@ doc-subtab: tabs
       </ul>
     </div>
 
-<div class="example">
-  <div class="tabs">
-    <ul class="is-left">
-      <li class="is-active"><a>Pictures</a></li>
+<div data-am-bulma="example">
+  <div data-am-bulma="tabs">
+    <ul data-am-bulma="is-left">
+      <li data-am-bulma="is-active"><a>Pictures</a></li>
       <li><a>Music</a></li>
       <li><a>Videos</a></li>
       <li><a>Documents</a></li>
     </ul>
-    <ul class="is-center">
+    <ul data-am-bulma="is-center">
       <li><a>Previous</a></li>
       <li><a>Up</a></li>
       <li><a>Next</a></li>
     </ul>
-    <ul class="is-right">
+    <ul data-am-bulma="is-right">
       <li><a>Search</a></li>
     </ul>
   </div>
 </div>
 
 {% highlight html %}
-<div class="tabs">
-  <ul class="is-left">
-    <li class="is-active"><a>Pictures</a></li>
+<div data-am-bulma="tabs">
+  <ul data-am-bulma="is-left">
+    <li data-am-bulma="is-active"><a>Pictures</a></li>
     <li><a>Music</a></li>
     <li><a>Videos</a></li>
     <li><a>Documents</a></li>
   </ul>
-  <ul class="is-center">
+  <ul data-am-bulma="is-center">
     <li><a>Previous</a></li>
     <li><a>Up</a></li>
     <li><a>Next</a></li>
   </ul>
-  <ul class="is-right">
+  <ul data-am-bulma="is-right">
     <li><a>Search</a></li>
   </ul>
 </div>
@@ -143,36 +143,36 @@ doc-subtab: tabs
 
     <hr>
 
-    <h3 class="title">Icons</h3>
+    <h3 data-am-bulma="title">Icons</h3>
 
-    <div class="content">
+    <div data-am-bulma="content">
       <p>You can use any of the <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> <strong>icons</strong>.</p>
     </div>
 
-<div class="example">
-  <div class="tabs is-centered">
+<div data-am-bulma="example">
+  <div data-am-bulma="tabs is-centered">
     <ul>
-      <li class="is-active">
+      <li data-am-bulma="is-active">
         <a>
-          <span class="icon is-small"><i class="fa fa-image"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-image"></i></span>
           <span>Pictures</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-music"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-music"></i></span>
           <span>Music</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-film"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-film"></i></span>
           <span>Videos</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-file-text-o"></i></span>
           <span>Documents</span>
         </a>
       </li>
@@ -181,29 +181,29 @@ doc-subtab: tabs
 </div>
 
 {% highlight html %}
-<div class="tabs is-centered">
+<div data-am-bulma="tabs is-centered">
   <ul>
-    <li class="is-active">
+    <li data-am-bulma="is-active">
       <a>
-        <span class="icon is-small"><i class="fa fa-image"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-image"></i></span>
         <span>Pictures</span>
       </a>
     </li>
     <li>
       <a>
-        <span class="icon is-small"><i class="fa fa-music"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-music"></i></span>
         <span>Music</span>
       </a>
     </li>
     <li>
       <a>
-        <span class="icon is-small"><i class="fa fa-film"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-film"></i></span>
         <span>Videos</span>
       </a>
     </li>
     <li>
       <a>
-        <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-file-text-o"></i></span>
         <span>Documents</span>
       </a>
     </li>
@@ -213,15 +213,15 @@ doc-subtab: tabs
 
     <hr>
 
-    <h3 class="title">Sizes</h3>
-    <div class="content">
+    <h3 data-am-bulma="title">Sizes</h3>
+    <div data-am-bulma="content">
       <p>You can choose between <strong>3 additional sizes</strong>: <code>is-small</code> <code>is-medium</code> and <code>is-large</code>.</p>
     </div>
 
-<div class="example">
-  <div class="tabs is-small">
+<div data-am-bulma="example">
+  <div data-am-bulma="tabs is-small">
     <ul>
-      <li class="is-active"><a>Pictures</a></li>
+      <li data-am-bulma="is-active"><a>Pictures</a></li>
       <li><a>Music</a></li>
       <li><a>Videos</a></li>
       <li><a>Documents</a></li>
@@ -230,9 +230,9 @@ doc-subtab: tabs
 </div>
 
 {% highlight html %}
-<div class="tabs is-small">
+<div data-am-bulma="tabs is-small">
   <ul>
-    <li class="is-active"><a>Pictures</a></li>
+    <li data-am-bulma="is-active"><a>Pictures</a></li>
     <li><a>Music</a></li>
     <li><a>Videos</a></li>
     <li><a>Documents</a></li>
@@ -240,10 +240,10 @@ doc-subtab: tabs
 </div>
 {% endhighlight %}
 
-<div class="example">
-  <div class="tabs is-medium">
+<div data-am-bulma="example">
+  <div data-am-bulma="tabs is-medium">
     <ul>
-      <li class="is-active"><a>Pictures</a></li>
+      <li data-am-bulma="is-active"><a>Pictures</a></li>
       <li><a>Music</a></li>
       <li><a>Videos</a></li>
       <li><a>Documents</a></li>
@@ -252,9 +252,9 @@ doc-subtab: tabs
 </div>
 
 {% highlight html %}
-<div class="tabs is-medium">
+<div data-am-bulma="tabs is-medium">
   <ul>
-    <li class="is-active"><a>Pictures</a></li>
+    <li data-am-bulma="is-active"><a>Pictures</a></li>
     <li><a>Music</a></li>
     <li><a>Videos</a></li>
     <li><a>Documents</a></li>
@@ -262,10 +262,10 @@ doc-subtab: tabs
 </div>
 {% endhighlight %}
 
-<div class="example">
-  <div class="tabs is-large">
+<div data-am-bulma="example">
+  <div data-am-bulma="tabs is-large">
     <ul>
-      <li class="is-active"><a>Pictures</a></li>
+      <li data-am-bulma="is-active"><a>Pictures</a></li>
       <li><a>Music</a></li>
       <li><a>Videos</a></li>
       <li><a>Documents</a></li>
@@ -274,9 +274,9 @@ doc-subtab: tabs
 </div>
 
 {% highlight html %}
-<div class="tabs is-large">
+<div data-am-bulma="tabs is-large">
   <ul>
-    <li class="is-active"><a>Pictures</a></li>
+    <li data-am-bulma="is-active"><a>Pictures</a></li>
     <li><a>Music</a></li>
     <li><a>Videos</a></li>
     <li><a>Documents</a></li>
@@ -286,35 +286,35 @@ doc-subtab: tabs
 
     <hr>
 
-    <h3 class="title">Styles</h3>
-    <div class="content">
+    <h3 data-am-bulma="title">Styles</h3>
+    <div data-am-bulma="content">
       If you want a more classic style with <strong>borders</strong>, just append the <code>is-boxed</code> modifier.
     </div>
 
-<div class="example">
-  <div class="tabs is-boxed">
+<div data-am-bulma="example">
+  <div data-am-bulma="tabs is-boxed">
     <ul>
-      <li class="is-active">
+      <li data-am-bulma="is-active">
         <a>
-          <span class="icon is-small"><i class="fa fa-image"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-image"></i></span>
           <span>Pictures</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-music"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-music"></i></span>
           <span>Music</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-film"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-film"></i></span>
           <span>Videos</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-file-text-o"></i></span>
           <span>Documents</span>
         </a>
       </li>
@@ -323,29 +323,29 @@ doc-subtab: tabs
 </div>
 
 {% highlight html %}
-<div class="tabs is-boxed">
+<div data-am-bulma="tabs is-boxed">
   <ul>
-    <li class="is-active">
+    <li data-am-bulma="is-active">
       <a>
-        <span class="icon is-small"><i class="fa fa-image"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-image"></i></span>
         <span>Pictures</span>
       </a>
     </li>
     <li>
       <a>
-        <span class="icon is-small"><i class="fa fa-music"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-music"></i></span>
         <span>Music</span>
       </a>
     </li>
     <li>
       <a>
-        <span class="icon is-small"><i class="fa fa-film"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-film"></i></span>
         <span>Videos</span>
       </a>
     </li>
     <li>
       <a>
-        <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-file-text-o"></i></span>
         <span>Documents</span>
       </a>
     </li>
@@ -353,34 +353,34 @@ doc-subtab: tabs
 </div>
 {% endhighlight %}
 
-    <p class="content">
+    <p data-am-bulma="content">
       If you want <strong>mutually exclusive</strong> tabs (like radio buttons where clicking one deselects all other ones), use the <code>is-toggle</code> modifier.
     </p>
 
-<div class="example">
-  <div class="tabs is-toggle">
+<div data-am-bulma="example">
+  <div data-am-bulma="tabs is-toggle">
     <ul>
-      <li class="is-active">
+      <li data-am-bulma="is-active">
         <a>
-          <span class="icon is-small"><i class="fa fa-image"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-image"></i></span>
           <span>Pictures</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-music"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-music"></i></span>
           <span>Music</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-film"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-film"></i></span>
           <span>Videos</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-file-text-o"></i></span>
           <span>Documents</span>
         </a>
       </li>
@@ -389,29 +389,29 @@ doc-subtab: tabs
 </div>
 
 {% highlight html %}
-<div class="tabs is-toggle">
+<div data-am-bulma="tabs is-toggle">
   <ul>
-    <li class="is-active">
+    <li data-am-bulma="is-active">
       <a>
-        <span class="icon is-small"><i class="fa fa-image"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-image"></i></span>
         <span>Pictures</span>
       </a>
     </li>
     <li>
       <a>
-        <span class="icon is-small"><i class="fa fa-music"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-music"></i></span>
         Music
       </a>
     </li>
     <li>
       <a>
-        <span class="icon is-small"><i class="fa fa-film"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-film"></i></span>
         Videos
       </a>
     </li>
     <li>
       <a>
-        <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-file-text-o"></i></span>
         Documents
       </a>
     </li>
@@ -419,52 +419,52 @@ doc-subtab: tabs
 </div>
 {% endhighlight %}
 
-    <p class="content">
+    <p data-am-bulma="content">
       If you want the tabs to take up the <strong>whole width</strong> available, use <code>is-fullwidth</code>.
     </p>
-    <div class="example">
-      <div class="tabs is-fullwidth">
+    <div data-am-bulma="example">
+      <div data-am-bulma="tabs is-fullwidth">
         <ul>
           <li>
             <a>
-              <span class="icon"><i class="fa fa-angle-left"></i></span>
+              <span data-am-bulma="icon"><i data-am-bulma="fa fa-angle-left"></i></span>
               <span>Left</span>
             </a>
           </li>
           <li>
             <a>
-              <span class="icon"><i class="fa fa-angle-up"></i></span>
+              <span data-am-bulma="icon"><i data-am-bulma="fa fa-angle-up"></i></span>
               <span>Up</span>
             </a>
           </li>
           <li>
             <a>
               <span>Right</span>
-              <span class="icon"><i class="fa fa-angle-right"></i></span>
+              <span data-am-bulma="icon"><i data-am-bulma="fa fa-angle-right"></i></span>
             </a>
           </li>
         </ul>
       </div>
     </div>
 {% highlight html %}
-<div class="tabs is-fullwidth">
+<div data-am-bulma="tabs is-fullwidth">
   <ul>
     <li>
       <a>
-        <span class="icon"><i class="fa fa-angle-left"></i></span>
+        <span data-am-bulma="icon"><i data-am-bulma="fa fa-angle-left"></i></span>
         <span>Left</span>
       </a>
     </li>
     <li>
       <a>
-        <span class="icon"><i class="fa fa-angle-up"></i></span>
+        <span data-am-bulma="icon"><i data-am-bulma="fa fa-angle-up"></i></span>
         <span>Up</span>
       </a>
     </li>
     <li>
       <a>
         <span>Right</span>
-        <span class="icon"><i class="fa fa-angle-right"></i></span>
+        <span data-am-bulma="icon"><i data-am-bulma="fa fa-angle-right"></i></span>
       </a>
     </li>
   </ul>
@@ -473,35 +473,35 @@ doc-subtab: tabs
 
     <hr>
 
-    <h3 class="title">Combining</h3>
-    <div class="content">
+    <h3 data-am-bulma="title">Combining</h3>
+    <div data-am-bulma="content">
       <p>You can <strong>combine</strong> different modifiers. For example, you can have <strong>centered boxed</strong> tabs, or <strong>fullwidth toggle</strong> ones.</p>
     </div>
 
-<div class="example">
-  <div class="tabs is-centered is-boxed">
+<div data-am-bulma="example">
+  <div data-am-bulma="tabs is-centered is-boxed">
     <ul>
-      <li class="is-active">
+      <li data-am-bulma="is-active">
         <a>
-          <span class="icon is-small"><i class="fa fa-image"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-image"></i></span>
           <span>Pictures</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-music"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-music"></i></span>
           <span>Music</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-film"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-film"></i></span>
           <span>Videos</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-file-text-o"></i></span>
           <span>Documents</span>
         </a>
       </li>
@@ -510,29 +510,29 @@ doc-subtab: tabs
 </div>
 
 {% highlight html %}
-<div class="tabs is-centered is-boxed">
+<div data-am-bulma="tabs is-centered is-boxed">
   <ul>
-    <li class="is-active">
+    <li data-am-bulma="is-active">
       <a>
-        <span class="icon is-small"><i class="fa fa-image"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-image"></i></span>
         <span>Pictures</span>
       </a>
     </li>
     <li>
       <a>
-        <span class="icon is-small"><i class="fa fa-music"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-music"></i></span>
         <span>Music</span>
       </a>
     </li>
     <li>
       <a>
-        <span class="icon is-small"><i class="fa fa-film"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-film"></i></span>
         <span>Videos</span>
       </a>
     </li>
     <li>
       <a>
-        <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-file-text-o"></i></span>
         <span>Documents</span>
       </a>
     </li>
@@ -540,30 +540,30 @@ doc-subtab: tabs
 </div>
 {% endhighlight %}
 
-<div class="example">
-  <div class="tabs is-toggle is-fullwidth">
+<div data-am-bulma="example">
+  <div data-am-bulma="tabs is-toggle is-fullwidth">
     <ul>
-      <li class="is-active">
+      <li data-am-bulma="is-active">
         <a>
-          <span class="icon is-small"><i class="fa fa-image"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-image"></i></span>
           <span>Pictures</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-music"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-music"></i></span>
           <span>Music</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-film"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-film"></i></span>
           <span>Videos</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-file-text-o"></i></span>
           <span>Documents</span>
         </a>
       </li>
@@ -572,29 +572,29 @@ doc-subtab: tabs
 </div>
 
 {% highlight html %}
-<div class="tabs is-toggle is-fullwidth">
+<div data-am-bulma="tabs is-toggle is-fullwidth">
   <ul>
-    <li class="is-active">
+    <li data-am-bulma="is-active">
       <a>
-        <span class="icon is-small"><i class="fa fa-image"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-image"></i></span>
         <span>Pictures</span>
       </a>
     </li>
     <li>
       <a>
-        <span class="icon is-small"><i class="fa fa-music"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-music"></i></span>
         <span>Music</span>
       </a>
     </li>
     <li>
       <a>
-        <span class="icon is-small"><i class="fa fa-film"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-film"></i></span>
         <span>Videos</span>
       </a>
     </li>
     <li>
       <a>
-        <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-file-text-o"></i></span>
         <span>Documents</span>
       </a>
     </li>
@@ -602,30 +602,30 @@ doc-subtab: tabs
 </div>
 {% endhighlight %}
 
-<div class="example">
-  <div class="tabs is-centered is-boxed is-medium">
+<div data-am-bulma="example">
+  <div data-am-bulma="tabs is-centered is-boxed is-medium">
     <ul>
-      <li class="is-active">
+      <li data-am-bulma="is-active">
         <a>
-          <span class="icon is-small"><i class="fa fa-image"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-image"></i></span>
           <span>Pictures</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-music"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-music"></i></span>
           <span>Music</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-film"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-film"></i></span>
           <span>Videos</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+          <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-file-text-o"></i></span>
           <span>Documents</span>
         </a>
       </li>
@@ -634,29 +634,29 @@ doc-subtab: tabs
 </div>
 
 {% highlight html %}
-<div class="tabs is-centered is-boxed is-medium">
+<div data-am-bulma="tabs is-centered is-boxed is-medium">
   <ul>
-    <li class="is-active">
+    <li data-am-bulma="is-active">
       <a>
-        <span class="icon is-small"><i class="fa fa-image"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-image"></i></span>
         <span>Pictures</span>
       </a>
     </li>
     <li>
       <a>
-        <span class="icon is-small"><i class="fa fa-music"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-music"></i></span>
         <span>Music</span>
       </a>
     </li>
     <li>
       <a>
-        <span class="icon is-small"><i class="fa fa-film"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-film"></i></span>
         <span>Videos</span>
       </a>
     </li>
     <li>
       <a>
-        <span class="icon is-small"><i class="fa fa-file-text-o"></i></span>
+        <span data-am-bulma="icon is-small"><i data-am-bulma="fa fa-file-text-o"></i></span>
         <span>Documents</span>
       </a>
     </li>
@@ -664,30 +664,30 @@ doc-subtab: tabs
 </div>
 {% endhighlight %}
 
-<div class="example">
-  <div class="tabs is-toggle is-fullwidth is-large">
+<div data-am-bulma="example">
+  <div data-am-bulma="tabs is-toggle is-fullwidth is-large">
     <ul>
-      <li class="is-active">
+      <li data-am-bulma="is-active">
         <a>
-          <span class="icon"><i class="fa fa-image"></i></span>
+          <span data-am-bulma="icon"><i data-am-bulma="fa fa-image"></i></span>
           <span>Pictures</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon"><i class="fa fa-music"></i></span>
+          <span data-am-bulma="icon"><i data-am-bulma="fa fa-music"></i></span>
           <span>Music</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon"><i class="fa fa-film"></i></span>
+          <span data-am-bulma="icon"><i data-am-bulma="fa fa-film"></i></span>
           <span>Videos</span>
         </a>
       </li>
       <li>
         <a>
-          <span class="icon"><i class="fa fa-file-text-o"></i></span>
+          <span data-am-bulma="icon"><i data-am-bulma="fa fa-file-text-o"></i></span>
           <span>Documents</span>
         </a>
       </li>
@@ -696,29 +696,29 @@ doc-subtab: tabs
 </div>
 
 {% highlight html %}
-<div class="tabs is-toggle is-fullwidth is-large">
+<div data-am-bulma="tabs is-toggle is-fullwidth is-large">
   <ul>
-    <li class="is-active">
+    <li data-am-bulma="is-active">
       <a>
-        <span class="icon"><i class="fa fa-image"></i></span>
+        <span data-am-bulma="icon"><i data-am-bulma="fa fa-image"></i></span>
         <span>Pictures</span>
       </a>
     </li>
     <li>
       <a>
-        <span class="icon"><i class="fa fa-music"></i></span>
+        <span data-am-bulma="icon"><i data-am-bulma="fa fa-music"></i></span>
         <span>Music</span>
       </a>
     </li>
     <li>
       <a>
-        <span class="icon"><i class="fa fa-film"></i></span>
+        <span data-am-bulma="icon"><i data-am-bulma="fa fa-film"></i></span>
         <span>Videos</span>
       </a>
     </li>
     <li>
       <a>
-        <span class="icon"><i class="fa fa-file-text-o"></i></span>
+        <span data-am-bulma="icon"><i data-am-bulma="fa fa-file-text-o"></i></span>
         <span>Documents</span>
       </a>
     </li>
